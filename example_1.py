@@ -1,7 +1,10 @@
 #!-*- coding:utf8 -*-
 
 M = 1
-D = 3
+
+D = int(raw_input("DAy?"))
+
+
 
 s = (M*2+D) % 3
 
