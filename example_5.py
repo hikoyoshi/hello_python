@@ -12,7 +12,7 @@ star = 5
 '''
 
 for i in range(star):
-    print '*'*(i+1)
+    print ('*'*(i+1))
 
 '''
 第二種星星排法
@@ -23,7 +23,7 @@ for i in range(star):
  *****
 '''
 for i in range(star):
-    print ' '*(star-i)+'*'*(i+1)
+    print (' '*(star-i)+'*'*(i+1))
     
 '''
 第三種星星排法
@@ -36,4 +36,4 @@ for i in range(star):
 '''
 
 for i in range(star):
-    print ' '*(star-i) + '*'*(2*i+1)
+    print (' '*(star-i) + '*'*(2*i+1))
